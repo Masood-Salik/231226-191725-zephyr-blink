@@ -17,6 +17,9 @@ How to build PlatformIO based project
 3. Extract ZIP archive
 4. Run these commands:
 
+
+Old default File
+
 ```shell
 # Change directory to example
 $ cd platform-ststm32/examples/zephyr-blink
