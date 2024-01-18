@@ -1,0 +1,8 @@
+# Custom board configuration
+
+# Copyright (c) 2023 Your Name.
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_CUSTOM_STM32F437VI
+	bool "Custom STM32F437VI Development Board"
+	depends on SOC_STM32F437XX

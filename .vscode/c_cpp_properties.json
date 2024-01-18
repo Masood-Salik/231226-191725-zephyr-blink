@@ -1,0 +1,81 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/include",
+                "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/src",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/include",
+                "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/.pio/build/nucleo_l432kc/zephyr/include/generated",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32l4",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/drivers",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/soc/arm/st_stm32/common",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/modules/cmsis",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32l4xx/soc",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include/Legacy",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/common_ll/include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/include",
+                    "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/src",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/include",
+                    "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/.pio/build/nucleo_l432kc/zephyr/include/generated",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/soc/arm/st_stm32/stm32l4",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/drivers",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/soc/arm/st_stm32/common",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/modules/cmsis",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32l4xx/soc",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/stm32l4xx/drivers/include/Legacy",
+                    "C:/Users/asus/.platformio/packages/framework-zephyr/_pio/modules/hal/stm32/stm32cube/common_ll/include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60113",
+                "STM32L432xx",
+                "CORE_CM4",
+                "HSE_VALUE=8000000",
+                "KERNEL",
+                "STM32L432xx",
+                "USE_FULL_LL_DRIVER",
+                "USE_HAL_DRIVER",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "C:/Users/asus/OneDrive/Documents/PlatformIO/Projects/231226-191725-zephyr-blink/.pio/build/nucleo_l432kc/zephyr/include/generated/autoconf.h",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/include/zephyr/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "C:/Users/asus/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "C:/Users/asus/.platformio/packages/framework-zephyr/lib/libc/minimal/include",
+                "-isystem",
+                "c:/users/asus/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/12.3.1/include",
+                "-isystem",
+                "c:/users/asus/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/12.3.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

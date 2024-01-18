@@ -1,0 +1,20 @@
+identifier: custom_STM32F437VI
+name: ST STM32F437VI Custom Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 520
+flash: 2048
+supported:
+  - arduino_i2c
+  - counter
+  - i2c
+  - spi
+  - arduino_spi
+  - gpio
+  - arduino_gpio
+  - usb_device
+vendor: st
